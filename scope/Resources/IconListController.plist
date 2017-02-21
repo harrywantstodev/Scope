@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>BetaDot</string>
+			<key>label</key>
+			<string>Hide Beta Dots</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>NoUpdateDot</string>
+			<key>label</key>
+			<string>Hide Update Dots</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>NoLabels</string>
+			<key>label</key>
+			<string>Hide All Icon Labels</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>LiveClock</string>
+			<key>label</key>
+			<string>Disable Live Clock Icon</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>NoBadges</string>
+			<key>label</key>
+			<string>Disable Icon Badges</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>IconShadow</string>
+			<key>label</key>
+			<string>Disable Icon Label Shadow</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Icon</string>
+</dict>
+</plist>

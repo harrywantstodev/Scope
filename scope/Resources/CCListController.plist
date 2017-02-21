@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>NoCCDots</string>
+			<key>label</key>
+			<string>Hide Control Center Dots</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>ColorCC</string>
+			<key>label</key>
+			<string>Disable Control Center Colors</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>CCRecord</string>
+			<key>label</key>
+			<string>Enable Internal Screen Recorder Toggle</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>LowPower</string>
+			<key>label</key>
+			<string>Enable Internal Low Power Toggle</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>CCSwipe</string>
+			<key>label</key>
+			<string>Show CC On First Swipe</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>DarkCC</string>
+			<key>label</key>
+			<string>Disable Wallpaper Dim</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Control Center</string>
+</dict>
+</plist>

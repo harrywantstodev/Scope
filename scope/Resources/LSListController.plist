@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>NoLSDots</string>
+			<key>label</key>
+			<string>Hide LockScreen Dots</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>LSRotate</string>
+			<key>label</key>
+			<string>Enable LockScreen Rotation</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>NoLSBar</string>
+			<key>label</key>
+			<string>Disable LS Status Bar</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>TodayTime</string>
+			<key>label</key>
+			<string>Hide Today View Time &#38; Date</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>NowPlaying</string>
+			<key>label</key>
+			<string>Remove Now Playing</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>LSStatus</string>
+			<key>label</key>
+			<string>Show Time in LockScreen Status Bar</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LockScreen</string>
+</dict>
+</plist>

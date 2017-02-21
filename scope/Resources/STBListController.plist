@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>SameStatus</string>
+			<key>label</key>
+			<string>LS &amp; SB status bar the same size</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>FolderStatus</string>
+			<key>label</key>
+			<string>Add Status Bar to Folders</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>SwitchStatus</string>
+			<key>label</key>
+			<string>Add status bar to Multitasker</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>Unbold</string>
+			<key>label</key>
+			<string>Unbold Status Bar</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>BreadCumb</string>
+			<key>label</key>
+			<string>Disable BreadCrumb</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>CustomCarrier</string>
+			<key>label</key>
+			<string>Hide Carrier Text</string>
+		</dict>
+		<dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSEditTextCell</string>
+            <key>defaults</key>         <string>com.harrywantstodev.scope</string>
+            <key>key</key>              <string>carierName</string>
+            <key>label</key>            <string>Text</string>
+            <key>PostNotification</key> <string>com.harrywantstodev.scope/settingschanged</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>label</key>            <string>Save</string>
+            <key>action</key>           <string>save</string>
+        </dict>
+
+	</array>
+	<key>title</key>
+	<string>Status Bar</string>
+</dict>
+</plist>

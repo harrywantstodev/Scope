@@ -1,0 +1,9 @@
+Package: com.harrywantstodev.scope
+Name: Scope
+Depends: mobilesubstrate, ws.hbang.common
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change the Scope of iOS 10's features with over 30 options!
+Maintainer: harrywantstodev
+Author: harrywantstodev
+Section: Tweaks

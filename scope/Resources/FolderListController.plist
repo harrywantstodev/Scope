@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>PinchToClose</string>
+			<key>label</key>
+			<string>Pinch to Close</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>FolderLabels</string>
+			<key>label</key>
+			<string>Hide Folder Labels</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.harrywantstodev.scope/settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.harrywantstodev.scope</string>
+			<key>key</key>
+			<string>FolderBg</string>
+			<key>label</key>
+			<string>Hide Folder Background</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Folder</string>
+</dict>
+</plist>

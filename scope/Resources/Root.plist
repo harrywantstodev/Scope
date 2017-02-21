@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+		    <key>cell</key>
+		    <string>PSGroupCell</string>
+		    <key>headerCellClass</key>
+		    <string>HBImageTableCell</string>
+		    <key>height</key>
+		    <integer>100</integer>
+		    <key>icon</key>
+		    <string>header.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>SBListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>SpringBoard Settings</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>IconListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>Icon Settings</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>LSListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>LockScreen Settings</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>STBListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>Status Bar Settings</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>NCListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>Notification Center Settings</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>CCListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>Control Center Settings</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>FolderListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>Folder Settings</string>
+</dict>
+<dict>
+	<key>cell</key>
+	<string>PSLinkCell</string>
+	<key>detail</key>
+	<string>MiscListController</string>
+	<key>isController</key>
+	<string>1</string>
+	<key>label</key>
+	<string>Miscellaneous Settings</string>
+</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Respring to apply changes.</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Scope</string>
+</dict>
+</plist>
