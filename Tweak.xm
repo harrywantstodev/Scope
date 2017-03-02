@@ -33,7 +33,7 @@ BOOL NowPlaying;
 BOOL LowPower;
 BOOL IconShadow;
 BOOL LSStatus;
-BOOL CustomCarrier;
+BOOL CustomCarrier; //broken af probs just delet this
 
 static NSString * const iCarrierPreferencesFile = @"/var/mobile/Library/Preferences/com.harrrywantstodev.scope/STBListController.plist";
 
